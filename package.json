@@ -1,0 +1,45 @@
+{
+  "name": "oberoi-backend",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/chahat151/oberoi-backend#readme",
+  "bugs": {
+    "url": "https://github.com/chahat151/oberoi-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chahat151/oberoi-backend.git"
+  },
+  "license": "ISC",
+  "author": "chahat vijay",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bottleneck": "^2.19.5",
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^7.5.0",
+    "formidable": "^3.5.2",
+    "helmet": "^8.0.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "mongoose": "^8.9.5",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.16",
+    "validator": "^13.12.0",
+    "xss-clean": "^0.1.4",
+    "yargs": "^17.7.2"
+  }
+}
